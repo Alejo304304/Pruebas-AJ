@@ -217,16 +217,18 @@
       padding: 20px;
     }
     #projects_container {
-      width: 75%;
+      width: 80%;
       height: 200px;
       display: flex;
     }
     #center_projects {
+      display: flex;
       height: 170px;
       margin: 0;
     }
     .projects {
-      display: flex;
+      margin-left: 2%;
+      margin-right: 2%;
       width: 150px;
       height: 175px;
     }

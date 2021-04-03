@@ -1,0 +1,35 @@
+/* fuentes personalizadas*/
+  @font-face {
+    font-family: "font_tex_main";
+    src: url("../font/rockwell_regular.ttf");
+  }
+  @font-face {
+      font-family: "font_title_main";
+      src: url("../font/rockwell_bold.ttf");
+  }
+  @font-face {
+      font-family: "font_nav";
+      src: url("../font/productsansblack.ttf");
+  }
+
+/*---------PANTALLAS MAYORES DE 1400px---------*/
+/*---------------------------------*/
+@media (min-width: 1400px) {
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

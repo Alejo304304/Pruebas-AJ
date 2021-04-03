@@ -18,11 +18,13 @@
   	margin: 0 auto;
   	padding: 0 auto;
   	}
+/*-----BARRA DE NAVEGACION----*/
+
   #barra_navegacion {
-    position: fixed;
     background-color: #fff;
     width: 100%;
     height: 100px;
+    position: fixed;
   }
   .icon_nav {
     float: right;
@@ -109,6 +111,14 @@
     .respmenu input:not(:checked) ~ .fa-times {
       display: none;
     }
+/*---------------------------------------------*/
+/*-----BARRA DE NAVEGACION----*/
+
+
+
+  footer img {
+    display: none;
+  }
 
 
 

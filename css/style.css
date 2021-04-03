@@ -12,14 +12,16 @@
       src: url("../font/productsansblack.ttf");
   }
 /*-----------------------------------------*/
-@media (min-width: 500px) and (max-width: 1400px) {
+@media (min-width: 500px) /*and (max-width: 1400px)*/ {
   * {
   	margin: 0 auto;
   	padding: 0 auto;
   	}
 
   /*---Barra de navegacion---*/
-
+.respmenu input, label{
+  display: none;
+}
   #barra_navegacion {
   	background: #fff;
   	height: 60px;
@@ -28,51 +30,51 @@
   	top: 0;
   	position: fixed;
   	}
-  #barra_navegacion img {
+
+  .icon_nav {
+    width: 70%;
+    height: 60px;
+  }
+  .icon_nav img {
     width: auto;
     height: 45px;
-    margin: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
-  		 {
-  				width: 55%;
-  				height: 80px;
-  				float: left;
-  		}
+  nav {
+    position: absolute;
+    top: 2px;
+    right: 15%;
+    float: right;
+  	width: 35%;
+  	height: 20px;
+  	padding-top: 20px;
+  }
+  nav ul {
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	padding-left: 20px;
+    display: flex;
+  }
+  nav ul li {
+  	display: inline-block;
+  }
+  nav ul li a{
+  	color: #000;
+  	display: block;
+  	padding-left: 20px;
+  	text-decoration: none;
+  	font-family: "font_nav";
+  	font-size: 15px;
 
-  		.icon_nav img {
-
-  		}
-  		.menu_nav {
-  			width: auto;
-  			height: 20px;
-  			padding-top: 20px;
-
-  		}
-  		.menu_nav ul {
-  			list-style: none;
-  			margin: 0;
-  			padding: 0;
-  			padding-left: 20px;
-        display: flex;
-  		}
-  		.menu_nav ul li {
-  			display: inline-block;
-  		}
-  		.menu_nav ul li a{
-  			color: #000;
-  			display: block;
-  			padding-left: 20px;
-  			text-decoration: none;
-  			font-family: "font_nav";
-  			font-size: 15px;
-
-  		}
-      .menu_nav ul li a:hover {
-        color: #BFBFBF;
-      }
-      .menu_nav ul li a:hover {
-        transition: color 0.3s;
-      }
+  }
+  nav ul li a:hover {
+    color: #BFBFBF;
+  }
+    nav ul li a:hover {
+      transition: color 0.3s;
+    }
 
   /*------------------------*/
 
@@ -142,6 +144,7 @@
     #service_containers {
       width: 85%;
       height: 930px;
+      padding-left: 5%;
 
     }
     .service_containers_fila01, .service_containers_fila02 {
@@ -190,7 +193,102 @@
         text-align: left;
       }
 
-}
+/*---------FOOTER---------*/
+#footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 420px;
+    background-color: #002227;
+  }
+  .contenedor_footer {
+    width: 85%;
+    height: 400px;
+  }
+ .redes_footer, .mapa_footer {
+   margin-top: 35px;
+   float: left;
+   width: 25%;
+   height: 340px;
+ }
+    .redes_footer img {
+      width: 40px;
+      height: auto;
+    }
+    .redes {
+      width: 65%;
+      height: 40px;
+      margin: 8px;
+      margin-left: 40px;
+      padding: 8px;
+    }
+    .redes a {
+      position: relative;
+      top: -15px;
+      left: 5px;
+      color: #BFBFBF;
+      font-family: "font_tex_main";
+      font-size: 18px;
+      text-decoration: none;
+    }
+            .redes a:hover {
+              color: #fff;
+            }
+            .redes a:hover {
+              transition: color 0.3s;
+            }
+
+
+ .text_footer {
+   float: left;
+   width: 50%;
+   height: 340px;
+ }
+    .text_footer img {
+      width: 50px;
+      height: auto;
+      margin: 60px 47%;
+    }
+    .text_footer p {
+      text-decoration: none;
+      font-family: "font_tex_main";
+      font-size: 15px;
+      color: #BFBFBF;
+      text-align: center;
+    }
+  .mapa_footer p {
+    margin-top: 25px;
+    margin-left: 50px;
+    color: #BFBFBF;
+    font-family: "font_tex_main";
+    font-size: 15px;
+  }
+    .mapa_footer img {
+      width: 150px;
+      height: auto;
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+   .derechos_footer {
+     margin-top: 15px;
+     float: left;
+     width: 100%;
+     height: 15px;
+     text-align: center;
+   }
+    .derechos_footer p {
+      color: #BFBFBF;
+      font-family: sans-serif;
+      font-size: 12px;
+    }
+
+
+/*---------------------------------*/
+
+
+
+
+
+/*---------DISPOSITIVOS MOBILES---------*/
 /*---------------------------------*/
 @media (max-width: 500px) {
   * {
@@ -288,9 +386,6 @@
     .respmenu input:not(:checked) ~ .fa-times {
       display: none;
     }
-
-
-
 
 
 

@@ -217,11 +217,7 @@
     position: relative;
     float: right;
     top: 15px;
-    left: px;
   }
-
-
-
 
 
     label img {
@@ -241,7 +237,6 @@
       display: block;
       padding: 20px 20px;
       max-width: 200px;
-      background-color: #e9e9e9;
       font-family: "font_nav";
     }
       .respmenu a:hover {

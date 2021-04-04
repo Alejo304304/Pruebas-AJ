@@ -18,7 +18,7 @@
     	padding: 0 auto;
     	}
 
-    /*---Barra de navegacion---*/
+/*--------Barra de navegacion-------*/
   .respmenu input, label{
     display: none;
   }
@@ -29,6 +29,7 @@
     	left: 0;
     	top: 0;
     	position: fixed;
+       box-shadow: 2px 2px 5px #818181;
     	}
 
     .icon_nav {
@@ -83,7 +84,7 @@
     	#head_main {
     		width: 100%;
     		height: 575px;
-    		background-color: #002227;
+    		background-color: #00181C;
         padding-top: 100px;
         padding-right: -40px;
     	}
@@ -197,12 +198,56 @@
 
 
 /*-----MI INFORMACION----*/
-  
 
-
-
-
-
+  .mi_informacion {
+    margin-top: 100px;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+  }
+  .quien_soy {
+    width: 100%;
+    height: 65px;
+  }
+    .quien_soy p {
+      color: #002227;
+      font-family: "font_nav";
+      font-size: 50px;
+      text-align: left;
+    }
+  .mi_informacion img {
+    width: 240px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .nombre {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+    .nombre a {
+      color: #000;
+      font-family: "font_nav";
+      font-size: 40px;
+      text-decoration: none;
+    }
+        .nombre a:hover {
+          color: #4f1fb4;
+        }
+        .nombre a {
+          transition: color 0.4s;
+        }
+  .descripcion {
+    margin-top: 30px;
+    width: 600px;
+    height: auto;
+  }
+  .descripcion p {
+    color: #000;
+    font-family: "font_tex_main";
+    font-size: 18px;
+  }
 
 /*---------------------------------*/
 
@@ -211,8 +256,8 @@
   #footer {
       margin-top: 150px;
       width: 100%;
-      height: 420px;
-      background-color: #002227;
+      height: 430px;
+      background-color: #00181C;
     }
     .contenedor_footer {
       width: 85%;
@@ -221,18 +266,22 @@
    .redes_footer, .mapa_footer {
      margin-top: 35px;
      float: left;
-     width: 25%;
+     width: 30%;
      height: 340px;
    }
+
+      .redes_footer {
+        margin-top: 70px;
+       }
       .redes_footer img {
-        width: 40px;
+        width: 35px;
         height: auto;
       }
       .redes {
         width: 65%;
-        height: 40px;
+        height: 25px;
         margin: 8px;
-        margin-left: 40px;
+        margin-left: 15%;
         padding: 8px;
       }
       .redes a {
@@ -241,7 +290,7 @@
         left: 5px;
         color: #BFBFBF;
         font-family: "font_tex_main";
-        font-size: 18px;
+        font-size: 15px;
         text-decoration: none;
       }
               .redes a:hover {
@@ -254,7 +303,7 @@
 
    .text_footer {
      float: left;
-     width: 50%;
+     width: 40%;
      height: 340px;
    }
       .text_footer img {
@@ -271,19 +320,18 @@
       }
     .mapa_footer p {
       margin-top: 25px;
-      margin-left: 50px;
+      margin-left: 25%;
       color: #BFBFBF;
       font-family: "font_tex_main";
       font-size: 15px;
     }
       .mapa_footer img {
-        width: 150px;
+        width: 140px;
         height: auto;
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 30%;
       }
      .derechos_footer {
-       margin-top: 15px;
        float: left;
        width: 100%;
        height: 15px;

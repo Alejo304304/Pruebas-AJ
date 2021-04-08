@@ -28,18 +28,17 @@
   }
   .icon_nav {
     float: right;
-    position: relative;
     width: 200px;
     height: 100px;
-    margin-right: 10px;
   }
 
   .icon_nav img {
-    width: 200px;
+    width: 185px;
     height: auto;
     position: relative;
     float: right;
     top: 15px;
+    right: 25px;
   }
 
 
@@ -116,7 +115,6 @@
   #head_main {
     width: 100%;
     height: auto;
-    background-color: red;
 
   }
   .dino_img {
@@ -207,7 +205,7 @@
           text-align: left;
         }
 
-        /*-----MI INFORMACION----*/
+/*------------MI INFORMACION------------*/
 
         .mi_informacion {
           margin-top: 120px;
@@ -233,9 +231,9 @@
           margin: auto;
         }
         .nombre {
+          margin-top: 20px;
           width: 100%;
           height: auto;
-          margin: 20px;
         }
           .nombre a {
             color: #000;

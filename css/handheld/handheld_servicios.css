@@ -119,7 +119,6 @@
 	#content_servicios {
 		width: 85%;
 		height: 1000px;
-    background-color: #c31c93;
     padding-top: 130px;
 	}
 	#seccion_servicios {
@@ -132,7 +131,6 @@
 			float: left;
 			width: 100%;
 			height: auto;
-      background-color: green;
 		}
 			.titulo_servicios {
 				float: left;

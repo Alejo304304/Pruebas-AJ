@@ -116,23 +116,17 @@
     /*-------------------------------------*/
 /*------------MAIN------------*/
   #head_main {
-    margin-top: 0px;
     width: 100%;
     height: 750px;
+    background-color: red;
+    background: url('../../img/main/head_main/head_main_mobile.png') no-repeat;
+    background-position: left;
+    background-size: auto 700px;
 
   }
-  .dino_img {
-        position: static;
-    		float: top left;
-    		width: 100%;
-    		height: 700px;
-        background: url('../../img/main/head_main/head_main_mobile.png') no-repeat;
-        background-position: left;
-        background-size: auto 700px;
-      }
       .head_main_text {
-        margin-top: -520px;
-        width: 450px;
+        margin-top: 160px;
+        width: 400px;
         height: 460px;
         float: left;
       }

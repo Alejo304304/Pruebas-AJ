@@ -158,13 +158,159 @@
         font-size: 30px;
         line-height: 2.5rem;
       }
+  #service {
+    width: 100%;
+    height: auto;
+  }
+  #service_containers {
+    margin-top: 50px;
+    width: 85%;
+    height: 2000px;
+  }
+  .service_containers_fila01, .service_containers_fila02 {
+    width: 100%;
+    height: auto;
+  }
+  .service_logo_identidad, .service_publicidad_negocios, .service_modelado, .service_packaging, .service_maquetacion, .service_diseno_web {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 7px;
+  }
+
+
+  .service_title {
+    margin-top: 20px;
+          width: 100%;
+          height: 100px;
+        }
+        .service_text {
+          padding-top: 10px;
+          padding-left:20px;
+          width: 100%;
+          height: auto;
+        }
+        .service_title a{
+          color: #002227;
+          text-decoration: none;
+          font-family: "font_nav";
+          font-size: 50px;
+          line-height: 3rem;
+          text-align: left;
+        }
+
+        .service_text p {
+          color: #000;
+          font-family: "font_tex_main";
+          font-size: 17px;
+          line-height: 1.7rem;
+          text-align: left;
+        }
+
+        /*-----MI INFORMACION----*/
+
+        .mi_informacion {
+          margin-top: 120px;
+          width: 85%;
+          height: 500px;
+          text-align: center;
+        }
+        .quien_soy {
+          width: 100%;
+          height: 40px;
+          margin-bottom: 30px;
+        }
+          .quien_soy p {
+            color: #002227;
+            font-family: "font_nav";
+            font-size: 30px;
+            text-align: left;
+          }
+        .mi_informacion img {
+          width: 200px;
+          height: auto;
+          display: block;
+          margin: auto;
+        }
+        .nombre {
+          width: 100%;
+          height: auto;
+          margin: 20px;
+        }
+          .nombre a {
+            color: #000;
+            font-family: "font_nav";
+            font-size: 40px;
+            text-decoration: none;
+          }
+
+        .descripcion {
+          margin-top: 30px;
+          width: 100%;
+          height: 200px;
+        }
+        .descripcion p {
+          color: #000;
+          font-family: "font_tex_main";
+          font-size: 18px;
+
+        }
+
+/*---------FOOTER---------*/
+  .redes p {display: none;}
+  .mapa_footer {display: none;}
+  .text_footer img{display: none;}
+  #footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 250px;
+    background-color: #00181C;
+  }
+    .contenedor_footer {
+      width: 80%;
+      height: 200px;
+    }
+    .redes_footer {
+      width: 100%;
+      height: auto;
+      display: inline-flex;
+      margin-top: 25px;
+    }
+    .redes_footer img {
+      width: 35px;
+      height: auto;
+    }
+  .text_footer {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+  }
+    .text_footer p {
+        text-decoration: none;
+        font-family: "font_tex_main";
+        font-size: 15px;
+        color: #BFBFBF;
+        text-align: center;
+    }
+
+    .derechos_footer {
+         float: left;
+         width: 100%;
+         height: 15px;
+         text-align: center;
+       }
+        .derechos_footer p {
+          color: #BFBFBF;
+          font-family: sans-serif;
+          font-size: 10px;
+        }
 
 
 
 
 
 
-
+/*---------------------------------*/
 
 
 

@@ -25,6 +25,7 @@
         width: 100%;
         height: 100px;
         position: fixed;
+        box-shadow: 2px 2px 5px #818181;
       }
       .icon_nav {
         float: right;
@@ -53,12 +54,13 @@
           float: left;
           top: 15px;
           left: 15px;
+          width: 50%;
         }
         .respmenu a {
           color: #000;
           text-decoration: none;
           display: block;
-          padding: 20px 20px;
+          padding: 30px 20px;
           max-width: 200px;
           font-family: "font_nav";
         }
@@ -93,7 +95,7 @@
           color: white;
           position: relative;
           background: #fff;
-          min-height: 48px;
+          min-height: 50px;
         }
 
         .respmenu nav {

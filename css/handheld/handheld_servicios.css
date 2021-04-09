@@ -175,8 +175,9 @@
 		}
 			.imagen01_servicios {
 				float: left;
-				width: 58%;
+				width: 200px;
 				height: auto;
+        margin-right: 10px;
 			}
 			.imagen02_servicios {
 				float: left;
@@ -184,44 +185,44 @@
 				height: 280px;
 			}
 /*------------------------*/
-	.imagen01_brandig {
-		width: 100%;
-		height: 280px;
+.imagen01_brandig {
+	width: 200px;
+	height: 280px;
+	background: url('../../img/servicios/01_branding.png') no-repeat;
+			background-position: center;
+			background-size: 390px auto;
+}
+	.imagen01_brandig:hover {
 		background: url('../../img/servicios/01_branding.png') no-repeat;
-		background-position: center;
-		background-size: 390px auto;
+			background-position: center;
+			background-size: 500px auto;
 	}
-		.imagen01_brandig:hover {
-			background: url('../../img/servicios/01_branding.png') no-repeat;
-				background-position: center;
-				background-size: 500px auto;
+		.imagen01_brandig {
+			transition: background 1.0s;
 		}
-      .imagen01_brandig {
-				transition: background 1.0s;
-			}
 
-	.imagen02_brandig {
-		width: 150px;
-		height: 280px;
-		background: url('../../img/servicios/02_branding.png') no-repeat;
-		background-position: center;
-		background-size: 200px auto;
-		}
-			.imagen02_brandig:hover {
-				background: url('../../img/servicios/02_branding.png') no-repeat;
-					background-position: center;
-					background-size: 250px auto;
+.imagen02_brandig {
+	width: 180px;
+	height: 280px;
+	background: url('../../img/servicios/02_branding.png') no-repeat;
+	background-position: center;
+	background-size: 200px auto;
+	}
+		.imagen02_brandig:hover {
+			background: url('../../img/servicios/02_branding.png') no-repeat;
+				background-position: left;
+				background-size: 250px auto;
+			}
+			 .imagen02_brandig {
+				transition: background 1.0s;
 				}
-		     .imagen02_brandig {
-					transition: background 1.0s;
-					}
 
 /*------------------------*/
 .imagen01_publicidad {
-	width: 390px;
+  width: 200px;
 	height: 280px;
 	background: url('../../img/servicios/01_publicidad.png') no-repeat;
-			background-position: center;
+			background-position: left;
 			background-size: 390px auto;
 }
 	.imagen01_publicidad:hover {
@@ -234,11 +235,11 @@
 		}
 
 .imagen02_publicidad {
-	width: 180px;
+  width: 180px;
 	height: 280px;
 	background: url('../../img/servicios/02_publicidad.png') no-repeat;
 	background-position: center;
-	background-size: 180px auto;
+	background-size: 200px auto;
 	}
 		.imagen02_publicidad:hover {
 			background: url('../../img/servicios/02_publicidad.png') no-repeat;
@@ -251,7 +252,7 @@
 
 /*------------------------*/
 .imagen01_publicidad_ex {
-	width: 390px;
+  width: 200px;
 	height: 280px;
 	background: url('../../img/servicios/01_publicidad_ex.png') no-repeat;
 			background-position: center;
@@ -284,7 +285,7 @@
 
 /*------------------------*/
 .imagen01_packaging {
-	width: 390px;
+  width: 200px;
 	height: 280px;
 	background: url('../../img/servicios/01_packaging.png') no-repeat;
 			background-position: center;
@@ -318,7 +319,7 @@
 /*------------------------*/
 
 .imagen01_maquetacion {
-	width: 390px;
+  width: 200px;
 	height: 280px;
 	background: url('../../img/servicios/01_maquetacion.png') no-repeat;
 			background-position: center;
@@ -351,7 +352,7 @@
 
 /*------------------------*/
 .imagen01_modelado {
-	width: 390px;
+  width: 200px;
 	height: 280px;
 	background: url('../../img/servicios/01_modelado.png') no-repeat;
 			background-position: center;

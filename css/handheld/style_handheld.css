@@ -30,14 +30,13 @@
               .icon_nav {
                 float: right;
                 position: absolute;
-                top: 0px;
-                left: 49%;
+                left: 45%;
               }
 
               .icon_nav img {
                 float: right;
                 margin-top: 20px;
-                width: 185px;
+                width: 175px;
                 height: auto;
                 top: 15px;
               }
@@ -64,7 +63,9 @@
                   .respmenu a:hover {
                     color: #00181C;
                   }
-
+                  .respmenu {
+                    transition: checked 2.0s;
+                  }
 
                 .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
                   position: absolute;
@@ -92,6 +93,10 @@
                   background: #fff;
                   min-height: 50px;
                 }
+
+
+
+
                 nav ul {
                   background-color: #00181C;
                   box-shadow: 2px 2px 5px #505050;

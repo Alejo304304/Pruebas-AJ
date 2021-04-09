@@ -30,14 +30,13 @@
               .icon_nav {
                 float: right;
                 position: absolute;
-                top: 0px;
-                left: 49%;
+                left: 45%;
               }
 
               .icon_nav img {
                 float: right;
                 margin-top: 20px;
-                width: 185px;
+                width: 175px;
                 height: auto;
                 top: 15px;
               }

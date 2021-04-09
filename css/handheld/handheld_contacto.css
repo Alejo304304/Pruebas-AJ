@@ -29,17 +29,16 @@
               }
               .icon_nav {
                 float: right;
-                position: relative;
-                width: 200px;
-                height: 100px;
-                margin-right: 10px;
+                position: absolute;
+                top: 0px;
+                left: 49%;
               }
 
               .icon_nav img {
+                float: right;
+                margin-top: 20px;
                 width: 185px;
                 height: auto;
-                position: relative;
-                float: right;
                 top: 15px;
               }
 
@@ -50,14 +49,12 @@
                 	margin: 15px;
                 }
                 .respmenu {
-                  position: relative;
                   float: left;
-                  top: 15px;
-                  left: 15px;
-                  width: 50%;
+                  top: 12px;
+                  width: 100%;
                 }
                 .respmenu a {
-                  color: #000;
+                  color: #fff;
                   text-decoration: none;
                   display: block;
                   padding: 30px 20px;
@@ -65,11 +62,9 @@
                   font-family: "font_nav";
                 }
                   .respmenu a:hover {
-                    color: #BFBFBF;
+                    color: #00181C;
                   }
-                  .respmenu a:hover {
-                    transition: color 0.3s;
-                  }
+
 
                 .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
                   position: absolute;
@@ -92,12 +87,21 @@
                 }
 
                 .respmenu {
-                  color: white;
+                  color: #00181C;
                   position: relative;
                   background: #fff;
                   min-height: 50px;
                 }
-
+                nav ul {
+                  background-color: #00181C;
+                  box-shadow: 2px 2px 5px #505050;
+                }
+                nav ul li:hover {
+                  background-color: #d5d5d5;
+                }
+                nav ul li:hover {
+                  transition: color 1.8s;
+                }
                 .respmenu nav {
                   display: none;
                 }
